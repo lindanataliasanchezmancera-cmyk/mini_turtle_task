@@ -1,0 +1,30 @@
+[build-system]
+# Herramientas usadas para construir el paquete
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mini-turtle-task"
+version = "1.0.1"
+description = "Proyecto educativo en Python que representa movimientos tipo turtle usando texto."
+readme = "README.md"
+
+authors = [
+    { name = "Julian Muñoz", email = "julian@email.com" }
+]
+
+license = { text = "MIT License" }
+keywords = ["python", "turtle", "educacion", "texto", "paquetes"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta"
+]
+
+# El proyecto no requiere dependencias externas
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/lindanataliasanchezmancera-cmyk/mini_turtle_task"
